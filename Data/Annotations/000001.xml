@@ -1,0 +1,26 @@
+<annotation verified="no">
+  <folder>Images</folder>
+  <filename>000001</filename>
+  <path>/home/lyc/&#26700;&#38754;/pretrain_model/Images/000001.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>1600</width>
+    <height>1200</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>bus</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>524</xmin>
+      <ymin>7</ymin>
+      <xmax>1488</xmax>
+      <ymax>859</ymax>
+    </bndbox>
+  </object>
+</annotation>
