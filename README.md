@@ -43,10 +43,10 @@ roi-pooling ：是需要额外安装的op
 # 实验结果展示：
 （只是为了验证自己写的程序没有错误，并未经过十分深入的调参，所以结果的准确度应该可用再提升）    
 检测结果：   
-![result_1](https://github.com/liuyicheng007/Fast-RCNN/raw/master/result/1.PNG)   
-![result_2](https://github.com/liuyicheng007/Fast-RCNN/raw/master/result/2.PNG)   
+![result_1](https://github.com/liuyicheng007/Fast-RCNN/raw/master/result/1.jpg)   
+![result_2](https://github.com/liuyicheng007/Fast-RCNN/raw/master/result/2.jpg)   
 特征层可视化结果（挑了一张有代表性的）：    
-![result_3](https://github.com/liuyicheng007/Fast-RCNN/raw/master/result/3.PNG)   
+![result_3](https://github.com/liuyicheng007/Fast-RCNN/raw/master/result/3.jpg)   
 
 
 
