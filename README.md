@@ -46,7 +46,7 @@ roi-pooling ：是需要额外安装的op
 检测结果：   
 ![result_2](https://github.com/Liu-Yicheng/Fast-RCNN/raw/master/result/2.jpg)  
 
-特征层可视化结果（挑了一张有代表性的）： 
+特征层可视化结果（第五个卷积层经过relu后第49张特征图）： 
 ![result_1](https://github.com/Liu-Yicheng/Fast-RCNN/raw/master/result/1.jpg)   
 ![result_3](https://github.com/Liu-Yicheng/Fast-RCNN/raw/master/result/3.jpg)   
 
