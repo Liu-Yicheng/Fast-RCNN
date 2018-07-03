@@ -105,7 +105,10 @@ class data(object):
                     label = np.zeros(self.class_num * 5 - 4, dtype=np.float32)  # 假设包括背景有5类，0：5是判断类别，5：5+4*4=21 是位置框信息
                     iou_val=0
                     for ground_truth, class_idx in ground_truth_dic.items():
-                        ground_truth = list(ground_truth)
+                        #ground_truth = list(ground_truth)
+                        xmin=(2*ground_truth[0]-ground_truth[2])/2.0
+                        ymin=(2*ground_truth[1]-ground_truth[3])/2.0
+                        ground_truth=[xmin,ymin,ground_truth[2],ground_truth[3]]
                         iou_val = IOU(ground_truth, proposal_bbox)
                         px = float(proposal_vertice[0]) + float(proposal_vertice[4] / 2.0)  # 中心点X
                         py = float(proposal_vertice[1]) + float(proposal_vertice[5] / 2.0)  # 中心点Y
